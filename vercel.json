@@ -1,14 +1,8 @@
 {
-  "services": {
-    "my_frontend": {
-      "root": "tutorly-games/adult/party/",
-      "framework": "nextjs"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": { "service": "my_frontend" }
+      "destination": "/index.html"
     }
   ]
 }
